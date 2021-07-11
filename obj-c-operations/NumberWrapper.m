@@ -18,7 +18,9 @@
 }
 
 - (void)increment {
-    self.number += 1;
+    @synchronized (self) {
+        self.number += 1;
+    }
 }
 
 @end

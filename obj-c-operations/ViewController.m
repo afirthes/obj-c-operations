@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "CountOperation.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.counter = [NumberWrapper new];
+    self.countQueue = [NSOperationQueue new];
 }
 
 
 - (IBAction)pressedUPDATE:(id)sender {
     self.counterLabel.text = [NSString stringWithFormat:@"%ld", (long)self.counter.number];
-    
-    [self updateBar:@1 withValue:@0.2f];
 }
 
 - (void)updateBar:(NSNumber *)index withValue:(NSNumber *)value {
@@ -36,5 +36,10 @@
 }
 
 - (IBAction)pressedSTART:(id)sender {
+    for(int i=0; i<12; i++) {
+        UIProgressView *v = (UIProgressView *) self.progressBars[i];
+        CountOperation *countOp = [[CountOperation alloc] init:self.counter withBar:v];
+        [self.countQueue addOperation:countOp];
+    }
 }
 @end

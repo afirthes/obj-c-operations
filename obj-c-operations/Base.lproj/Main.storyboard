@@ -87,10 +87,9 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="...counter..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VI5-ZQ-srl">
-                                <rect key="frame" x="107" y="549" width="200" height="62"/>
+                                <rect key="frame" x="20" y="549" width="374" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="Uzd-St-fv6"/>
-                                    <constraint firstAttribute="width" constant="200" id="zx4-Yw-XFE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -104,9 +103,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Br0-o2-OQ7" secondAttribute="trailing" constant="20" id="4FY-iN-OTJ"/>
                             <constraint firstItem="rnA-K1-5Av" firstAttribute="top" secondItem="9xI-pc-3dY" secondAttribute="bottom" constant="20" id="5Os-eM-T2r"/>
                             <constraint firstItem="PCD-c8-hVQ" firstAttribute="top" secondItem="qU3-H0-yJy" secondAttribute="bottom" constant="20" id="5PB-LH-pFQ"/>
+                            <constraint firstItem="VI5-ZQ-srl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7Pr-1C-tiT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tAN-hh-PCw" secondAttribute="trailing" constant="20" id="9Xk-1M-3Dm"/>
                             <constraint firstItem="tAN-hh-PCw" firstAttribute="top" secondItem="ECN-ou-hTM" secondAttribute="bottom" constant="20" id="A36-jz-v7L"/>
                             <constraint firstItem="jn9-FD-YxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BKq-rF-ULO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VI5-ZQ-srl" secondAttribute="trailing" constant="20" id="BX2-m3-GO8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HMj-r3-nux" secondAttribute="trailing" constant="20" id="Dug-fo-aGa"/>
                             <constraint firstItem="9xI-pc-3dY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="GBk-p9-vzW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qU3-H0-yJy" secondAttribute="trailing" constant="20" id="Hra-gG-u2S"/>
@@ -117,7 +118,6 @@
                             <constraint firstItem="Vx9-O8-QFP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qqy-6v-98c"/>
                             <constraint firstItem="jn9-FD-YxD" firstAttribute="top" secondItem="tAN-hh-PCw" secondAttribute="bottom" constant="20" id="RUh-JK-kgJ"/>
                             <constraint firstItem="oUb-bi-aij" firstAttribute="top" secondItem="PCD-c8-hVQ" secondAttribute="bottom" constant="14" id="Rlb-Zq-QFi"/>
-                            <constraint firstItem="VI5-ZQ-srl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Sby-V5-IaV"/>
                             <constraint firstItem="VI5-ZQ-srl" firstAttribute="top" secondItem="1Ek-Qd-EKS" secondAttribute="bottom" constant="21" id="TEq-bx-SGB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NGP-Ck-IIN" secondAttribute="trailing" constant="20" id="To4-Cc-Gdf"/>
                             <constraint firstItem="1Ek-Qd-EKS" firstAttribute="top" secondItem="oUb-bi-aij" secondAttribute="bottom" constant="50" id="UNb-al-mPH"/>
