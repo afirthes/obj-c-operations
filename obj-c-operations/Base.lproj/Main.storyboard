@@ -1,24 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="9xI-pc-3dY">
+                                <rect key="frame" x="20" y="86" width="374" height="4"/>
+                                <color key="tintColor" red="1" green="0.2313724452" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="rnA-K1-5Av">
+                                <rect key="frame" x="20" y="110" width="374" height="4"/>
+                                <color key="tintColor" red="1" green="0.2313724452" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="Br0-o2-OQ7">
+                                <rect key="frame" x="20" y="134" width="374" height="4"/>
+                                <color key="tintColor" red="1" green="0.2313724452" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="NGP-Ck-IIN">
+                                <rect key="frame" x="20" y="158" width="374" height="4"/>
+                                <color key="tintColor" red="1" green="0.2313724452" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="HMj-r3-nux">
+                                <rect key="frame" x="20" y="182" width="374" height="4"/>
+                                <color key="tintColor" red="1" green="0.2313724452" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="Vx9-O8-QFP">
+                                <rect key="frame" x="20" y="206" width="374" height="4"/>
+                                <color key="tintColor" red="1" green="0.2313724452" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="ECN-ou-hTM">
+                                <rect key="frame" x="20" y="230" width="374" height="4"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="tAN-hh-PCw">
+                                <rect key="frame" x="20" y="254" width="374" height="4"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="jn9-FD-YxD">
+                                <rect key="frame" x="20" y="278" width="374" height="4"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="VeN-WI-XiO">
+                                <rect key="frame" x="20" y="302" width="374" height="4"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="GDr-qS-Ee5">
+                                <rect key="frame" x="20" y="326" width="374" height="4"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="qU3-H0-yJy">
+                                <rect key="frame" x="20" y="350" width="374" height="4"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCD-c8-hVQ">
+                                <rect key="frame" x="183.5" y="374" width="47" height="30"/>
+                                <state key="normal" title="START"/>
+                                <connections>
+                                    <action selector="pressedSTART:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIq-Z5-edq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUb-bi-aij">
+                                <rect key="frame" x="187.5" y="418" width="39" height="30"/>
+                                <state key="normal" title="STOP"/>
+                                <connections>
+                                    <action selector="pressedSTOP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Emo-YX-GiU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ek-Qd-EKS">
+                                <rect key="frame" x="154" y="498" width="106" height="30"/>
+                                <state key="normal" title="UPDATE LABEL"/>
+                                <connections>
+                                    <action selector="pressedSTOP:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyo-8e-Gg1"/>
+                                    <action selector="pressedUPDATE:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WqK-Wj-4a2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="...counter..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VI5-ZQ-srl">
+                                <rect key="frame" x="107" y="549" width="200" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Uzd-St-fv6"/>
+                                    <constraint firstAttribute="width" constant="200" id="zx4-Yw-XFE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tAN-hh-PCw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0Hz-jW-R5u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Br0-o2-OQ7" secondAttribute="trailing" constant="20" id="4FY-iN-OTJ"/>
+                            <constraint firstItem="rnA-K1-5Av" firstAttribute="top" secondItem="9xI-pc-3dY" secondAttribute="bottom" constant="20" id="5Os-eM-T2r"/>
+                            <constraint firstItem="PCD-c8-hVQ" firstAttribute="top" secondItem="qU3-H0-yJy" secondAttribute="bottom" constant="20" id="5PB-LH-pFQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tAN-hh-PCw" secondAttribute="trailing" constant="20" id="9Xk-1M-3Dm"/>
+                            <constraint firstItem="tAN-hh-PCw" firstAttribute="top" secondItem="ECN-ou-hTM" secondAttribute="bottom" constant="20" id="A36-jz-v7L"/>
+                            <constraint firstItem="jn9-FD-YxD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BKq-rF-ULO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HMj-r3-nux" secondAttribute="trailing" constant="20" id="Dug-fo-aGa"/>
+                            <constraint firstItem="9xI-pc-3dY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="GBk-p9-vzW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qU3-H0-yJy" secondAttribute="trailing" constant="20" id="Hra-gG-u2S"/>
+                            <constraint firstItem="Vx9-O8-QFP" firstAttribute="top" secondItem="HMj-r3-nux" secondAttribute="bottom" constant="20" id="IvE-I8-10k"/>
+                            <constraint firstItem="oUb-bi-aij" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MIB-8c-aIp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rnA-K1-5Av" secondAttribute="trailing" constant="20" id="OIi-l5-qaK"/>
+                            <constraint firstItem="VeN-WI-XiO" firstAttribute="top" secondItem="jn9-FD-YxD" secondAttribute="bottom" constant="20" id="Ql8-W0-rEp"/>
+                            <constraint firstItem="Vx9-O8-QFP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Qqy-6v-98c"/>
+                            <constraint firstItem="jn9-FD-YxD" firstAttribute="top" secondItem="tAN-hh-PCw" secondAttribute="bottom" constant="20" id="RUh-JK-kgJ"/>
+                            <constraint firstItem="oUb-bi-aij" firstAttribute="top" secondItem="PCD-c8-hVQ" secondAttribute="bottom" constant="14" id="Rlb-Zq-QFi"/>
+                            <constraint firstItem="VI5-ZQ-srl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Sby-V5-IaV"/>
+                            <constraint firstItem="VI5-ZQ-srl" firstAttribute="top" secondItem="1Ek-Qd-EKS" secondAttribute="bottom" constant="21" id="TEq-bx-SGB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NGP-Ck-IIN" secondAttribute="trailing" constant="20" id="To4-Cc-Gdf"/>
+                            <constraint firstItem="1Ek-Qd-EKS" firstAttribute="top" secondItem="oUb-bi-aij" secondAttribute="bottom" constant="50" id="UNb-al-mPH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jn9-FD-YxD" secondAttribute="trailing" constant="20" id="Uk2-T6-bu7"/>
+                            <constraint firstItem="ECN-ou-hTM" firstAttribute="top" secondItem="Vx9-O8-QFP" secondAttribute="bottom" constant="20" id="VQ2-yx-Mlj"/>
+                            <constraint firstItem="HMj-r3-nux" firstAttribute="top" secondItem="NGP-Ck-IIN" secondAttribute="bottom" constant="20" id="Wwc-HQ-7Df"/>
+                            <constraint firstItem="ECN-ou-hTM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yx1-fj-iPO"/>
+                            <constraint firstItem="HMj-r3-nux" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aOx-B6-G3t"/>
+                            <constraint firstItem="qU3-H0-yJy" firstAttribute="top" secondItem="GDr-qS-Ee5" secondAttribute="bottom" constant="20" id="iDf-i3-JDx"/>
+                            <constraint firstItem="rnA-K1-5Av" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iI7-Xr-YjW"/>
+                            <constraint firstItem="qU3-H0-yJy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iMO-Cq-EaX"/>
+                            <constraint firstItem="VeN-WI-XiO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jSS-ne-bsh"/>
+                            <constraint firstItem="1Ek-Qd-EKS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="k6p-gX-cl1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VeN-WI-XiO" secondAttribute="trailing" constant="20" id="kJT-Vq-0SB"/>
+                            <constraint firstItem="PCD-c8-hVQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kPt-LN-UT2"/>
+                            <constraint firstItem="GDr-qS-Ee5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mNS-nr-R1a"/>
+                            <constraint firstItem="GDr-qS-Ee5" firstAttribute="top" secondItem="VeN-WI-XiO" secondAttribute="bottom" constant="20" id="mRP-Kj-C4O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vx9-O8-QFP" secondAttribute="trailing" constant="20" id="nN1-7l-cjg"/>
+                            <constraint firstItem="Br0-o2-OQ7" firstAttribute="top" secondItem="rnA-K1-5Av" secondAttribute="bottom" constant="20" id="oNS-J6-i6Q"/>
+                            <constraint firstItem="NGP-Ck-IIN" firstAttribute="top" secondItem="Br0-o2-OQ7" secondAttribute="bottom" constant="20" id="rFH-oy-t1f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9xI-pc-3dY" secondAttribute="trailing" constant="20" id="rMV-mY-5w8"/>
+                            <constraint firstItem="NGP-Ck-IIN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rNg-H2-WUc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ECN-ou-hTM" secondAttribute="trailing" constant="20" id="rab-Bt-riJ"/>
+                            <constraint firstItem="Br0-o2-OQ7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tah-Jq-ysI"/>
+                            <constraint firstItem="9xI-pc-3dY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="u8q-nv-MXf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GDr-qS-Ee5" secondAttribute="trailing" constant="20" id="zEm-r6-ccE"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="counterLabel" destination="VI5-ZQ-srl" id="VFE-Rh-H3W"/>
+                        <outletCollection property="progressBars" destination="9xI-pc-3dY" id="Fug-kl-3mZ"/>
+                        <outletCollection property="progressBars" destination="rnA-K1-5Av" id="fua-CL-0SN"/>
+                        <outletCollection property="progressBars" destination="Br0-o2-OQ7" id="aGt-fr-jMA"/>
+                        <outletCollection property="progressBars" destination="NGP-Ck-IIN" id="NRN-BS-eOg"/>
+                        <outletCollection property="progressBars" destination="HMj-r3-nux" id="dev-Jy-j77"/>
+                        <outletCollection property="progressBars" destination="Vx9-O8-QFP" id="8dp-rO-sAO"/>
+                        <outletCollection property="progressBars" destination="ECN-ou-hTM" id="rGh-Fo-5IH"/>
+                        <outletCollection property="progressBars" destination="tAN-hh-PCw" id="CY9-Nb-4y0"/>
+                        <outletCollection property="progressBars" destination="jn9-FD-YxD" id="NCL-cF-NK2"/>
+                        <outletCollection property="progressBars" destination="VeN-WI-XiO" id="HGi-PF-VlI"/>
+                        <outletCollection property="progressBars" destination="GDr-qS-Ee5" id="eYO-PG-XkG"/>
+                        <outletCollection property="progressBars" destination="qU3-H0-yJy" id="xss-Mz-cmd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

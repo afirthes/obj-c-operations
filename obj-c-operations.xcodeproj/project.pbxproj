@@ -14,6 +14,8 @@
 		6A03451F269AF8BA00BFEB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A03451E269AF8BA00BFEB87 /* Assets.xcassets */; };
 		6A034522269AF8BA00BFEB87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A034520269AF8BA00BFEB87 /* LaunchScreen.storyboard */; };
 		6A034525269AF8BA00BFEB87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A034524269AF8BA00BFEB87 /* main.m */; };
+		6A03452D269AFE0C00BFEB87 /* CountOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A03452B269AFE0C00BFEB87 /* CountOperation.m */; };
+		6A034530269B008300BFEB87 /* NumberWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A03452F269B008300BFEB87 /* NumberWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		6A034521269AF8BA00BFEB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A034523269AF8BA00BFEB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A034524269AF8BA00BFEB87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A03452B269AFE0C00BFEB87 /* CountOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountOperation.m; sourceTree = "<group>"; };
+		6A03452C269AFE0C00BFEB87 /* CountOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountOperation.h; sourceTree = "<group>"; };
+		6A03452E269B008300BFEB87 /* NumberWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberWrapper.h; sourceTree = "<group>"; };
+		6A03452F269B008300BFEB87 /* NumberWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +73,15 @@
 				6A034516269AF8B600BFEB87 /* SceneDelegate.m */,
 				6A034518269AF8B600BFEB87 /* ViewController.h */,
 				6A034519269AF8B600BFEB87 /* ViewController.m */,
+				6A03452C269AFE0C00BFEB87 /* CountOperation.h */,
+				6A03452B269AFE0C00BFEB87 /* CountOperation.m */,
 				6A03451B269AF8B600BFEB87 /* Main.storyboard */,
 				6A03451E269AF8BA00BFEB87 /* Assets.xcassets */,
 				6A034520269AF8BA00BFEB87 /* LaunchScreen.storyboard */,
 				6A034523269AF8BA00BFEB87 /* Info.plist */,
 				6A034524269AF8BA00BFEB87 /* main.m */,
+				6A03452E269B008300BFEB87 /* NumberWrapper.h */,
+				6A03452F269B008300BFEB87 /* NumberWrapper.m */,
 			);
 			path = "obj-c-operations";
 			sourceTree = "<group>";
@@ -149,6 +159,8 @@
 				6A034514269AF8B600BFEB87 /* AppDelegate.m in Sources */,
 				6A034525269AF8BA00BFEB87 /* main.m in Sources */,
 				6A034517269AF8B600BFEB87 /* SceneDelegate.m in Sources */,
+				6A034530269B008300BFEB87 /* NumberWrapper.m in Sources */,
+				6A03452D269AFE0C00BFEB87 /* CountOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QQ5FDJWTRX;
+				DEVELOPMENT_TEAM = UA7GHD8MCZ;
 				INFOPLIST_FILE = "obj-c-operations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QQ5FDJWTRX;
+				DEVELOPMENT_TEAM = UA7GHD8MCZ;
 				INFOPLIST_FILE = "obj-c-operations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
