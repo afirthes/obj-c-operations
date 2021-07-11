@@ -18,6 +18,7 @@
 }
 
 - (void)increment {
+    // Core feature - is we remove sync - answer will be wrong.
     @synchronized (self) {
         self.number += 1;
     }
